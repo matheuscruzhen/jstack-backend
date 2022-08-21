@@ -16,6 +16,7 @@ class ContactController {
 
     response.json(contact);
   }
+
   async store(request, response) {
     const { name, email, phone, category_id } = request.body;
 
